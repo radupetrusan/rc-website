@@ -1,0 +1,14 @@
+@use "../../styles/spacings" as *;
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: $x10 $x5;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--n500);
+}
